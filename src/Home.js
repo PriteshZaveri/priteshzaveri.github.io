@@ -106,7 +106,16 @@ class Home extends Component {
                 <img src={require("./images/mongo_logo.png")} />
                 <h4>Mongo DB</h4>
               </div>
+              <div className="skills__card">
+                <img src={require("./images/ps_logo.png")} />
+                <h4>Photoshop</h4>
+              </div>
             </div>
+          </div>
+        </section>
+        <section className="contact__me" id="contact">
+          <div className="container">
+            <h2 className="section__title">Contact Me</h2>
           </div>
         </section>
       </div>

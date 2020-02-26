@@ -65,6 +65,11 @@ body {
     }
   }
 }
+
+footer {
+  background: #fff;
+}
+
 .home__top {
   width: 100%;
   min-height: calc(100vh - 70px);
@@ -92,8 +97,11 @@ body {
   }
 }
 .home__about,
-.home__skills {
+.home__skills,
+.contact__me {
   background: #fff;
+  position: sticky;
+  top: 0;
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -151,4 +159,31 @@ body {
 }
 .home__skills {
   background: $neutral-grey;
+}
+.skills__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.skills__card {
+  width: 20%;
+  background: #fff;
+  border-radius: 5px;
+  // box-shadow: 7px 7px 16px #e6e6e6, -7px -7px 16px #ffffff;
+  padding: 20px;
+  margin: 10px 5px;
+  text-align: center;
+  &:hover {
+    box-shadow: inset 7px 7px 14px #eeeeee, inset -7px -7px 14px #fcfcfc;
+  }
+  img {
+    height: 125px;
+    width: auto;
+    max-width: 100%;
+  }
+  h4 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
 }
