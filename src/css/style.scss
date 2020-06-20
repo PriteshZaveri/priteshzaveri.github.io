@@ -13,12 +13,16 @@ body {
   background-size: cover;
   background-position: center;
   max-width: 100%;
+  overflow-x: hidden;
 }
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0px auto;
   padding: 0px 20px;
+}
+.home {
+  overflow-x: hidden;
 }
 .navbar {
   display: flex;

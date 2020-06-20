@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Typewriter from "typewriter-effect/dist/core";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 class Home extends Component {
   componentDidMount() {
-    // AOS.init({
-    //   duration: 1000,
-    // });
+    AOS.init({
+      duration: 1000,
+    });
     new Typewriter("#typewriter", {
       strings: [
         "I make stuff",
