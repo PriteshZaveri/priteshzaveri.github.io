@@ -211,26 +211,30 @@ class Home extends Component {
               </div>
               <div className="work__right">
                 <h3>Accenture Solutions Pvt. Ltd.</h3>
-                <p>
+                <div>
                   Trained in SAP Sales and Distribution module. Worked on
                   various technologies in different domains such as Automation
                   Initiatives and products based on Artificial Intelligence.
                   <br />
                   <b>Career Highlights:</b>
-                  <br /> 1) Created 7 independent Automation utilities that
-                  resulted in more than 8000 hrs and $750,000 worth of savings
-                  in 1 financial year which was highly appreciated by the
-                  client.
-                  <br />
-                  2) Won star employee of the month twice in 8 months.
-                  <br />
-                  3) Created a website from scratch that served as a Dashboard
-                  for team management. The website is hosted on AWS and has
-                  proven to be beneficial to the team. The Dashboard is even
-                  demonstrated to various Accenture MDs and got highly
-                  appreciated for it. I was also a part of the team that created
-                  a chat bot for automating daily tasks through voice commands.
-                </p>
+                  <ul className="work-ul">
+                    <li>
+                      Created 7 independent Automation utilities that resulted
+                      in more than 8000 hrs and $750,000 worth of savings in 1
+                      financial year which was highly appreciated by the client.
+                    </li>
+                    <li>Won star employee of the month twice in 8 months.</li>
+                    <li>
+                      Created a website from scratch that served as a Dashboard
+                      for team management. The website is hosted on AWS and has
+                      proven to be beneficial to the team. The Dashboard is even
+                      demonstrated to various Accenture MDs and got highly
+                      appreciated for it. I was also a part of the team that
+                      created a chat bot for automating daily tasks through
+                      voice commands.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
 
@@ -246,22 +250,83 @@ class Home extends Component {
               </div>
               <div className="work__right">
                 <h3>Media.Net Software Services Private Limited</h3>
-                <p>
-                  1) Currently working as a Senior UI Developer on multiple
-                  projects primarily using Javascript frameworks such as
-                  React.Js, Node.Js etc. along with HTML5, CSS3 and Jquery.
-                  <br />
-                  2) I have built more than 30 websites of all kinds such as
-                  blogs, shopping sites, entertainment, trivia sites and premium
-                  websites.
-                  <br />I have built Wordpress themes, APIs, Emailers, Landers,
-                  Serps and many other web services.
-                  <br />I have integrated Google AdSense and DFPs into websites
-                  for monetisation.
-                  <br />
-                  3) My current role also involes helping new joinees to get
-                  aboard by training and mentoring them.
-                </p>
+                <ul className="work-ul">
+                  <li>
+                    Converted PSD and Zeplin designs to Web pages using HTML,
+                    CSS, and Javascript.
+                  </li>
+                  <li>
+                    Created 15 WordPress websites with custom themes built from
+                    scratch, 17 Product websites built on CakePHP framework, and
+                    8 Product Listing and Comparison Websites made using ReactJs
+                    in the Front-end and NodeJs with Hapi server in the
+                    Back-end. All websites are mobile responsive up to 320px and
+                    have all major browser support.
+                  </li>
+                  <li>
+                    Developed 5 highly optimized dashboards using ReactJs to
+                    help business teams visualize the key performance indicators
+                    and other strategic data for the organization at a glance.
+                    Made use of latest libraries like Redux, Webpack for code
+                    bundling, Sass for CSS pre-processing, and Axios for API
+                    calls.
+                  </li>
+                  <li>
+                    Mentored 4 new joiners to help them get on board in the team
+                    and trained them well.
+                  </li>
+                  <li>
+                    Brought new ideas and improved existing development process
+                    by introducing OOP style of programming and training
+                    everyone on writing modular code, thus helping in overall
+                    reduction of more than 40% in website development time.
+                  </li>
+                  <li>
+                    Actively took interviews and helped to bring new talent to
+                    the team. Also responsible for setting up the interview
+                    questions and assignments for the candidates.
+                  </li>
+                  <li>
+                    Expertise in creating highly optimized Search Engine Results
+                    Page with Google DFP/ADX integration along with the
+                    integrations of Taboola and Outbrain Ad Units.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              className="work__details"
+              data-aos="fade-right"
+              data-aos-once="true"
+            >
+              <div className="work__left">
+                <h3>Free Lancing</h3>
+                <span>Jul 2020 - Nov 2020</span>
+              </div>
+              <div className="work__right">
+                <h3>Vow Jewels LLP.</h3>
+                <div>
+                  <ul className="work-ul">
+                    <li>
+                      Developed a mobile application with payment gateway
+                      integration based on client requirements and
+                      specifications using Ionic 4, Laravel and MySQL. The app
+                      is deployed and published on Google PlayStore since
+                      November 2020.
+                    </li>
+                    Link:&nbsp;
+                    <a
+                      href="https://play.google.com/store/apps/details?id=vow.gold.investment"
+                      title="Vow Gold Investment App"
+                      className="link"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      https://play.google.com/store/apps/details?id=vow.gold.investment
+                    </a>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -269,7 +334,13 @@ class Home extends Component {
         <section className="contact__me" id="contactme">
           <div className="container">
             <h2 className="section__title">Contact Me</h2>
-            <form id="contact__form" name="contactform">
+            <form
+              id="contact__form"
+              name="contactform"
+              method="GET"
+              action="mailto:priteshzaveri27@gmail.com"
+              encType="text/plain"
+            >
               <input
                 type="text"
                 className="c__input name"
@@ -277,8 +348,9 @@ class Home extends Component {
                 required
                 data-aos="zoom-out"
                 data-aos-once="true"
+                name="subject"
               />
-              <input
+              {/* <input
                 type="email"
                 className="c__input email"
                 placeholder="Email"
@@ -286,6 +358,7 @@ class Home extends Component {
                 data-aos="zoom-out"
                 data-aos-once="true"
                 data-aos-delay="200"
+                name="email"
               />
               <input
                 type="text"
@@ -294,13 +367,15 @@ class Home extends Component {
                 data-aos="zoom-out"
                 data-aos-once="true"
                 data-aos-delay="400"
-              />
+                name="contact"
+              /> */}
               <textarea
                 className="c__input message"
                 placeholder="Message"
                 data-aos="zoom-out"
                 data-aos-once="true"
                 data-aos-delay="600"
+                name="body"
               ></textarea>
               <button
                 type="submit"

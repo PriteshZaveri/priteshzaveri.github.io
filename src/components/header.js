@@ -39,7 +39,25 @@ const Header = (props) => {
               data-aos-once="true"
               data-aos-delay="600"
             >
-              <a href="#contact">Contact Me</a>
+              <a href="#contactme">Contact Me</a>
+            </li>
+            <li
+              className="nav__list-item nav__list-download"
+              data-aos="fade"
+              data-aos-once="true"
+              data-aos-delay="600"
+            >
+              <a
+                className="download-link"
+                href="/Resume-PriteshZaveri.pdf"
+                download
+              >
+                Resume
+                <img
+                  src={require("../images/download.svg")}
+                  alt="Download Resume"
+                />
+              </a>
             </li>
           </ul>
         </div>
