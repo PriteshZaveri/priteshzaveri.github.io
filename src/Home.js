@@ -164,8 +164,8 @@ class Home extends Component {
                 data-aos-once="true"
                 data-aos-delay="800"
               >
-                <img src={require("./images/vue_logo.png")} alt="vue js" />
-                <h4>VUE Js</h4>
+                <img src={require("./images/nextjs_logo.jpg")} alt="next js" />
+                <h4>Next.js</h4>
               </div>
               <div
                 className="skills__card"
