@@ -113,92 +113,92 @@ const Portfolio = () => {
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site8"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="Shopping Site 6"
+                    imgPath="website8-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site9"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="Product Compare Site 1"
+                    imgPath="website9-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site10"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="Product Compare Site 2"
+                    imgPath="website10-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site11"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="Product Compare Site 3"
+                    imgPath="website11-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site12"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="College Compare Site 1"
+                    imgPath="website12-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site13"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="College Compare Site 2"
+                    imgPath="website13-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site14"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="Credit Card Compare Site"
+                    imgPath="website14-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site15"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="Engaging Content Website"
+                    imgPath="website15-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site16"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="Celeb News &amp; Info Website"
+                    imgPath="website16-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site17"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="Vow Gold Investment"
+                    imgPath="website17-cover.PNG"
                     date="September, 2019"
                   />
 
                   <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site18"
-                    title="Health Site 1"
-                    imgPath="website1-cover.PNG"
+                    title="Vow Collections"
+                    imgPath="website18-cover.PNG"
                     date="September, 2019"
                   />
 
-                  <PortFolioList
+                  {/* <PortFolioList
                     colClass="ui-ux-design"
                     dataName="site19"
                     title="Health Site 1"
@@ -212,7 +212,7 @@ const Portfolio = () => {
                     title="Health Site 1"
                     imgPath="website1-cover.PNG"
                     date="September, 2019"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>

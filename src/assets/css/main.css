@@ -617,6 +617,16 @@ img {
   text-decoration: underline;
 }
 
+.v-img {
+  width: auto;
+  max-height: 500px;
+  margin: 0px auto;
+}
+
+.h-img {
+  width: 100%;
+}
+
 /* Portfolio */
 /* Form */
 .form-wrapper .form-group {

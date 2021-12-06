@@ -41,7 +41,6 @@ const PortfolioModal = () => {
               "website2-5.PNG",
             ]}
           />
-
           <PortfolioModalCard
             dataName="site3"
             title="Health Product Website 1"
@@ -72,7 +71,6 @@ const PortfolioModal = () => {
               "website4-5.PNG",
             ]}
           />
-
           <PortfolioModalCard
             dataName="site5"
             title="Shopping Website 4"
@@ -88,7 +86,6 @@ const PortfolioModal = () => {
               "website5-5.PNG",
             ]}
           />
-
           <PortfolioModalCard
             dataName="site6"
             title="Shopping Site 5"
@@ -104,7 +101,6 @@ const PortfolioModal = () => {
               "website6-5.PNG",
             ]}
           />
-
           <PortfolioModalCard
             dataName="site7"
             title="Health Blog Site"
@@ -117,6 +113,177 @@ const PortfolioModal = () => {
               "website7-2.PNG",
               "website7-3.PNG",
             ]}
+          />
+          <PortfolioModalCard
+            dataName="site8"
+            title="Shopping Site 6"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website8-cover.PNG",
+              "website8-1.PNG",
+              "website8-2.PNG",
+              "website8-3.PNG",
+              "website8-4.PNG",
+              "website8-5.PNG",
+            ]}
+          />
+          <PortfolioModalCard
+            dataName="site9"
+            title="Product Compare Site 1"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website9-cover.PNG",
+              "website9-1.PNG",
+              "website9-2.PNG",
+              "website9-3.PNG",
+              "website9-4.PNG",
+              "website9-5.PNG",
+            ]}
+          />
+          <PortfolioModalCard
+            dataName="site10"
+            title="Product Compare Site 2"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website10-cover.PNG",
+              "website10-1.PNG",
+              "website10-2.PNG",
+              "website10-3.PNG",
+              "website10-4.PNG",
+            ]}
+          />
+          <PortfolioModalCard
+            dataName="site11"
+            title="Product Compare Site 3"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website11-cover.PNG",
+              "website11-1.PNG",
+              "website11-2.PNG",
+              "website11-3.PNG",
+              "website11-4.PNG",
+              "website11-5.PNG",
+              "website11-6.PNG",
+            ]}
+          />
+          <PortfolioModalCard
+            dataName="site12"
+            title="College Compare Site 1"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website12-cover.PNG",
+              "website12-1.PNG",
+              "website12-2.PNG",
+              "website12-3.PNG",
+              "website12-4.PNG",
+            ]}
+          />
+          <PortfolioModalCard
+            dataName="site13"
+            title="College Compare Site 2"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website13-cover.PNG",
+              "website13-1.PNG",
+              "website13-2.PNG",
+              "website13-3.PNG",
+              "website13-4.PNG",
+              "website13-5.PNG",
+              "website13-6.PNG",
+            ]}
+          />
+          <PortfolioModalCard
+            dataName="site14"
+            title="Credit Card Compare Site"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website14-cover.PNG",
+              "website14-1.PNG",
+              "website14-2.PNG",
+              "website14-3.PNG",
+              "website14-4.PNG",
+            ]}
+          />
+          <PortfolioModalCard
+            dataName="site15"
+            title="Engaging Content Website"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website15-cover.PNG",
+              "website15-1.PNG",
+              "website15-2.PNG",
+              "website15-3.PNG",
+              "website15-4.PNG",
+              "website15-5.PNG",
+              "website15-6.PNG",
+            ]}
+          />
+
+          <PortfolioModalCard
+            dataName="site16"
+            title="Celeb News &amp; Info Website"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website16-cover.PNG",
+              "website16-1.PNG",
+              "website16-2.PNG",
+              "website16-3.PNG",
+              "website16-4.PNG",
+              "website16-5.PNG",
+            ]}
+          />
+
+          <PortfolioModalCard
+            dataName="site17"
+            title="Vow Gold Investment"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website17-cover.PNG",
+              "website17-1.jpg",
+              "website17-2.png",
+              "website17-3.png",
+              "website17-4.jpg",
+              "website17-5.jpg",
+              "website17-6.jpg",
+              "website17-7.png",
+            ]}
+            isVertical={true}
+          />
+
+          <PortfolioModalCard
+            dataName="site18"
+            title="Vow Collection"
+            description="This a product shopping website with custom design and 5 major pages. It has a search, category as well as product detail page. All pages are completely responsive and highly optimized. This website also has a custom blog website associated with it."
+            stack="HTML, CSS, Javascript, JQuery, CakePHP | Blog: Wordpress"
+            date="August, 2019"
+            imgPaths={[
+              "website18-cover.PNG",
+              "website18-1.PNG",
+              "website18-2.PNG",
+              "website18-3.PNG",
+              "website18-4.PNG",
+            ]}
+            isVertical={true}
           />
         </div>
       </div>
@@ -131,6 +298,7 @@ const PortfolioModalCard = ({
   stack,
   date,
   imgPaths,
+  isVertical = false,
 }) => {
   return (
     <div className="modal-body" data-name={dataName}>
@@ -176,7 +344,7 @@ const PortfolioModalCard = ({
                 <img
                   src={require("../assets/images/" + img)}
                   alt={title}
-                  style={{ width: "100%" }}
+                  className={isVertical ? "v-img" : "h-img"}
                 />
               </div>
             );
