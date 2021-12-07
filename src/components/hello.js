@@ -76,8 +76,9 @@ const Hello = () => {
                 Contact me
               </a>
               <a
-                href="./download/example.pdf"
+                href="/Resume-PriteshZaveri.pdf"
                 className="site-btn gray-btn"
+                target="_blank"
               >
                 Download cv
               </a>

@@ -180,7 +180,7 @@ const Portfolio = () => {
                     colClass="compare-sites"
                     dataName="site12"
                     title="College Compare Site 1"
-                    imgPath="website12-cover.png"
+                    imgPath="website12-cover.PNG"
                     date="July, 2018"
                   />
 

@@ -66,7 +66,7 @@ const PortfolioModal = () => {
               "website4-cover.PNG",
               "website4-1.PNG",
               "website4-2.PNG",
-              "website4-3.png",
+              "website4-3.PNG",
               "website4-4.PNG",
               "website4-5.PNG",
             ]}
@@ -181,11 +181,11 @@ const PortfolioModal = () => {
             stack="React, NextJS, PostCSS, NodeJS, MongoDB | Blog: Wordpress"
             date="July, 2018"
             imgPaths={[
-              "website12-cover.png",
+              "website12-cover.PNG",
               "website12-1.PNG",
               "website12-2.PNG",
-              "website12-3.png",
-              "website12-4.png",
+              "website12-3.PNG",
+              "website12-4.PNG",
             ]}
           />
           <PortfolioModalCard
@@ -196,8 +196,8 @@ const PortfolioModal = () => {
             date="July, 2019"
             imgPaths={[
               "website13-cover.PNG",
-              "website13-1.png",
-              "website13-2.png",
+              "website13-1.PNG",
+              "website13-2.PNG",
               "website13-3.PNG",
               "website13-4.PNG",
               "website13-5.PNG",
@@ -212,7 +212,7 @@ const PortfolioModal = () => {
             date="August, 2018"
             imgPaths={[
               "website14-cover.PNG",
-              "website14-1.png",
+              "website14-1.PNG",
               "website14-2.PNG",
               "website14-3.PNG",
               "website14-4.PNG",

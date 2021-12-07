@@ -29,9 +29,9 @@ const Header = (props) => {
                   <li>
                     <a href="#portfolio">Portfolio</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#feedback">Feedback</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="#contact">Contact me</a>
                   </li>
@@ -72,9 +72,9 @@ const Header = (props) => {
             <li>
               <a href="#portfolio">Portfolio</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#feedback">Feedback</a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact">Contact me</a>
             </li>
