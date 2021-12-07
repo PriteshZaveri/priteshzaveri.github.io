@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 import PortfolioModal from "./portfolio-modal";
 
 const Portfolio = () => {
@@ -29,23 +30,23 @@ const Portfolio = () => {
                   <li
                     className="colored-link"
                     data-mixitup-control
-                    data-filter=".web-sites"
+                    data-filter=".shopping-sites"
                   >
-                    Web sites
+                    Shopping &amp; Health
                   </li>
                   <li
                     className="colored-link"
                     data-mixitup-control
-                    data-filter=".ui-ux-design"
+                    data-filter=".compare-sites"
                   >
-                    UI\UX design
+                    Product Compare
                   </li>
                   <li
                     className="colored-link"
                     data-mixitup-control
-                    data-filter=".frontend"
+                    data-filter=".brand"
                   >
-                    Frontend
+                    Brand &amp; Engagement
                   </li>
                 </ul>
               </div>
@@ -55,15 +56,48 @@ const Portfolio = () => {
             <div className="col-md-12">
               <div className="portfolio">
                 <div className="row">
+
                   <PortFolioList
-                    colClass="web-sites"
+                    colClass="brand"
+                    dataName="site15"
+                    title="Engaging Content Website"
+                    imgPath="website15-cover.PNG"
+                    date="January, 2020"
+                  />
+
+                  <PortFolioList
+                    colClass="brand"
+                    dataName="site16"
+                    title="Celeb News &amp; Info Website"
+                    imgPath="website16-cover.PNG"
+                    date="February, 2021"
+                  />
+
+                  <PortFolioList
+                    colClass="brand"
+                    dataName="site17"
+                    title="Vow Gold Investment"
+                    imgPath="website17-cover.PNG"
+                    date="November, 2020"
+                  />
+
+                  <PortFolioList
+                    colClass="brand"
+                    dataName="site18"
+                    title="Vow Collections"
+                    imgPath="website18-cover.PNG"
+                    date="March, 2021"
+                  />
+
+                  <PortFolioList
+                    colClass="shopping-sites"
                     dataName="site1"
                     title="Shopping Site 1"
                     imgPath="website1-cover.PNG"
                     date="March, 2018"
                   />
                   <PortFolioList
-                    colClass="frontend"
+                    colClass="shopping-sites"
                     dataName="site2"
                     title="Shopping Site 2"
                     imgPath="website2-cover.PNG"
@@ -71,7 +105,7 @@ const Portfolio = () => {
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="shopping-sites"
                     dataName="site3"
                     title="Health Site 1"
                     imgPath="website3-cover.PNG"
@@ -79,23 +113,23 @@ const Portfolio = () => {
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="shopping-sites"
                     dataName="site4"
                     title="Shopping Site 3"
                     imgPath="website4-cover.PNG"
-                    date="September, 2019"
+                    date="August, 2020"
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="shopping-sites"
                     dataName="site5"
                     title="Shopping Site 4"
                     imgPath="website5-cover.PNG"
-                    date="September, 2019"
+                    date="October, 2019"
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="shopping-sites"
                     dataName="site6"
                     title="Shopping Site 5"
                     imgPath="website6-cover.PNG"
@@ -103,99 +137,67 @@ const Portfolio = () => {
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="shopping-sites"
                     dataName="site7"
                     title="Health Blog Site"
                     imgPath="website7-cover.PNG"
-                    date="September, 2019"
+                    date="September, 2020"
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="shopping-sites"
                     dataName="site8"
                     title="Shopping Site 6"
                     imgPath="website8-cover.PNG"
-                    date="September, 2019"
+                    date="February, 2018"
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="compare-sites"
                     dataName="site9"
-                    title="Product Compare Site 1"
+                    title="Cellphones Compare Site"
                     imgPath="website9-cover.PNG"
-                    date="September, 2019"
+                    date="November, 2018"
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="compare-sites"
                     dataName="site10"
                     title="Product Compare Site 2"
                     imgPath="website10-cover.PNG"
-                    date="September, 2019"
+                    date="December, 2019"
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="compare-sites"
                     dataName="site11"
                     title="Product Compare Site 3"
                     imgPath="website11-cover.PNG"
-                    date="September, 2019"
+                    date="January, 2020"
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="compare-sites"
                     dataName="site12"
                     title="College Compare Site 1"
-                    imgPath="website12-cover.PNG"
-                    date="September, 2019"
+                    imgPath="website12-cover.png"
+                    date="July, 2018"
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="compare-sites"
                     dataName="site13"
                     title="College Compare Site 2"
                     imgPath="website13-cover.PNG"
-                    date="September, 2019"
+                    date="July, 2019"
                   />
 
                   <PortFolioList
-                    colClass="ui-ux-design"
+                    colClass="compare-sites"
                     dataName="site14"
                     title="Credit Card Compare Site"
                     imgPath="website14-cover.PNG"
-                    date="September, 2019"
-                  />
-
-                  <PortFolioList
-                    colClass="ui-ux-design"
-                    dataName="site15"
-                    title="Engaging Content Website"
-                    imgPath="website15-cover.PNG"
-                    date="September, 2019"
-                  />
-
-                  <PortFolioList
-                    colClass="ui-ux-design"
-                    dataName="site16"
-                    title="Celeb News &amp; Info Website"
-                    imgPath="website16-cover.PNG"
-                    date="September, 2019"
-                  />
-
-                  <PortFolioList
-                    colClass="ui-ux-design"
-                    dataName="site17"
-                    title="Vow Gold Investment"
-                    imgPath="website17-cover.PNG"
-                    date="September, 2019"
-                  />
-
-                  <PortFolioList
-                    colClass="ui-ux-design"
-                    dataName="site18"
-                    title="Vow Collections"
-                    imgPath="website18-cover.PNG"
-                    date="September, 2019"
+                    date="August, 2018"
                   />
 
                   {/* <PortFolioList
@@ -236,7 +238,9 @@ const PortFolioList = ({ colClass, dataName, title, date, imgPath }) => {
         className="portfolio-box"
       >
         <div className="portfolio-img">
+          <LazyLoad once>
           <img src={require("../assets/images/" + imgPath)} alt={title} />
+          </LazyLoad>
         </div>
         <div className="portfolio-name">
           <span>{title}</span>

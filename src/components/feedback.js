@@ -48,8 +48,8 @@ const Feedback = () => {
               </h2>
               <div className="opacity-box">
                 <p>
-                  Take a look at the reviews of my customers and ensure the
-                  quality of my services.
+                  Take a look at the reviews of my colleagues or clients and
+                  ensure the quality of my work.
                 </p>
               </div>
             </div>
@@ -58,11 +58,11 @@ const Feedback = () => {
             <div className="row wow zoomIn">
               <div className="col-md-12">
                 <div className="feedback-block">
-                  <img
+                  {/* <img
                     className="feedback-image"
                     src="media/feedback-images/feedback-1.jpg"
                     alt=""
-                  />
+                  /> */}
                   <h4 className="about-tittle">Stacey Don</h4>
                   <p className="about-info">President @ Coolor Studio</p>
                   <div className="opacity-box">
@@ -83,11 +83,11 @@ const Feedback = () => {
             <div className="row wow zoomIn">
               <div className="col-md-12">
                 <div className="feedback-block">
-                  <img
+                  {/* <img
                     className="feedback-image"
                     src="media/feedback-images/feedback-2.jpg"
                     alt=""
-                  />
+                  /> */}
                   <h4 className="about-tittle">Anson Shura</h4>
                   <p className="about-info">Project Manager @ Motion Studio</p>
                   <div className="opacity-box">
@@ -107,11 +107,11 @@ const Feedback = () => {
             <div className="row wow zoomIn">
               <div className="col-md-12">
                 <div className="feedback-block">
-                  <img
+                  {/* <img
                     className="feedback-image"
                     src="media/feedback-images/feedback-3.jpg"
                     alt=""
-                  />
+                  /> */}
                   <h4 className="about-tittle">Gaylord Jefferson</h4>
                   <p className="about-info">Developer @ Illskill Agency</p>
                   <div className="opacity-box">
