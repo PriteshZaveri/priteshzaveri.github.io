@@ -23,7 +23,7 @@ const Hello = () => {
             <div className="about-me-text">
               <div className="opacity-box">
                 <p>
-                  I am a Front-End Developer located in Markham, Ontario with 4+ years of experience in building user interfaces and a lot of different stuff. Always ready to learn and improve my skills as a web developer.
+                  I am a Front-End Developer located in Markham, Ontario with 5+ years of experience in building user interfaces and a lot of different stuff. Always ready to learn and improve my skills as a web developer.
                 </p>
               </div>
             </div>
