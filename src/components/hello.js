@@ -76,7 +76,7 @@ const Hello = () => {
                 Contact me
               </a>
               <a
-                href="/Resume-PriteshZaveri.pdf"
+                href="/Resume-Pritesh_Neelesh_Zaveri.pdf"
                 className="site-btn gray-btn"
                 target="_blank"
               >
