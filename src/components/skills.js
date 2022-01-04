@@ -5,19 +5,19 @@ const Skills = () => {
         <div className="container">
             <div className="row wave-bg">
                 <div className="zigzag wow slideInLeft">
-                    <svg xmlns="http://www.w3.org/2000/svg"  version="1.1" x="0px" y="0px" viewBox="0 0 105 20" >
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" >
                         <g>
-                            <rect className="st0" width="105" height="20"/>
+                            <rect className="st0" width="105" height="20" />
                             <g>
-                                <polyline className="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                                <polyline className="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
                             </g>
                         </g>
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg"  version="1.1" x="0px" y="0px" viewBox="0 0 105 20" >
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" >
                         <g>
-                            <rect className="st0" width="105" height="20"/>
+                            <rect className="st0" width="105" height="20" />
                             <g>
-                                <polyline className="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                                <polyline className="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   " />
                             </g>
                         </g>
                     </svg>
@@ -36,7 +36,7 @@ const Skills = () => {
                             <div className="advantages-box">
                                 <h4>Web Development</h4>
                                 <div className="opacity-box">
-                                    <p>Javascript, PHP, Node.js, CakePHP, Python, MongoDB, PostgreSQL. </p>
+                                    <p>Javascript, PHP, Node.js, CakePHP, Python, MongoDB, PostgreSQL, GraphQL. </p>
                                 </div>
                             </div>
                         </div>
@@ -49,13 +49,13 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-    
+
                         <div className="col-md-6 wow zoomIn">
                             <hr />
                             <div className="advantages-box">
                                 <h4>Frontend Development</h4>
                                 <div className="opacity-box">
-                                    <p>HTML, CSS, SASS, React, Bootstrap, Wordpress, Cordova, Ionic.</p>
+                                    <p>HTML, CSS, SASS, React, Redux, Bootstrap, Wordpress, Cordova, Ionic.</p>
                                 </div>
                             </div>
                         </div>

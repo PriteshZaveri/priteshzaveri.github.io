@@ -1,7 +1,7 @@
 import React from "react";
 
 const Hello = () => {
-    return <section id="hello" className="section">
+  return <section id="hello" className="section">
     <div className="container">
       <div className="row">
         <div className="col-md-6 about-img-wrap">
@@ -23,7 +23,7 @@ const Hello = () => {
             <div className="about-me-text">
               <div className="opacity-box">
                 <p>
-                  I am a Front-End Developer located in Markham, Ontario with 5+ years of experience in building user interfaces and a lot of different stuff. Always ready to learn and improve my skills as a web developer.
+                  I am a Front-End Developer located in Markham, Ontario with 5+ years of experience in building rich user interfaces and specialization in javascript development. Designed highly performant websites and applications that increased user engagement and resolved persistent browser compatibility issues for Firefox &amp; Internet Explorer users whilst rigorously adhering to project deadlines.
                 </p>
               </div>
             </div>

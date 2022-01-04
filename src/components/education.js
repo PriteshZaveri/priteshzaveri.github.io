@@ -68,8 +68,11 @@ const Education = () => {
                   <p>2012 — 2016</p>
                   <div className="opacity-box">
                     <p>
-                      Created a database security system that allows users to
+                      - Created a database security system that allows users to
                       access the database after verifying their palm prints.
+                    </p>
+                    <p>
+                      - Conducted a workshop for third year students on Android app development.
                     </p>
                   </div>
                 </div>

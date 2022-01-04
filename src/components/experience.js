@@ -63,7 +63,7 @@ const Experience = () => {
                   <p className="about-info">
                     Media.net Software Services (India) Pvt. Ltd
                   </p>
-                  <p>Dec, 2017 — Present</p>
+                  <p>Dec, 2017 — Dec, 2021</p>
                   <div className="opacity-box">
                     <p>
                       • Converted PSD and Zeplin designs to Web pages using
