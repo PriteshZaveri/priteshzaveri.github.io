@@ -30,7 +30,7 @@ const Hello = () => {
             <div className="about-me-info">
               <p>
                 <span className="span-title">Phone</span>
-                <span>+1-647-724-1079</span>
+                <span>+1-437-684-0909</span>
               </p>
               <p>
                 <span className="span-title">Email</span>
