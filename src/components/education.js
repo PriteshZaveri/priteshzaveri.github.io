@@ -63,17 +63,20 @@ const Education = () => {
                     Bachelor of Engineering in Information Technology
                   </h4>
                   <p className="about-info">
-                    K.J. Somaiya College of Engineering - Mumbai
+                    - K.J. Somaiya College of Engineering - Mumbai
                   </p>
                   <p>2012 — 2016</p>
                   <div className="opacity-box">
-                    <p>
-                      - Created a database security system that allows users to
-                      access the database after verifying their palm prints.
-                    </p>
-                    <p>
-                      - Conducted a workshop for third year students on Android app development.
-                    </p>
+                    <ul>
+                      <li>
+                        Created a database security system that allows users to
+                        access the database after verifying their palm prints.
+                      </li>
+                      <li>
+                        Conducted a workshop for third year students on Android
+                        app development.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -83,10 +86,12 @@ const Education = () => {
               <div className="col-md-12">
                 <div className="about-row">
                   <h4 className="about-tittle">Higher Secondary Certificate</h4>
-                  <p className="about-info">Mithibai College - Mumbai</p>
+                  <p className="about-info">- Mithibai College - Mumbai</p>
                   <p>2010 — 2012</p>
                   <div className="opacity-box">
-                    <p>Passed HSC in Science with distinction level</p>
+                    <ul>
+                      <li>Passed HSC in Science with distinction level</li>
+                    </ul>
                   </div>
                 </div>
               </div>

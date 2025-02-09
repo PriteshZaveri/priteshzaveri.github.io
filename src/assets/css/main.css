@@ -449,7 +449,7 @@ img {
 
 .about-row .about-tittle {
   float: left;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .about-row .about-info {
@@ -463,7 +463,10 @@ img {
 
 .about-row .opacity-box {
   margin-top: 10px;
-  font-style: italic;
+}
+
+.about-row .opacity-box ul {
+  padding-left: 15px;
 }
 
 .feedback-block .about-tittle {
